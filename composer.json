@@ -1,0 +1,32 @@
+{
+  "name": "swoole-foundation/swoole-thrift",
+  "description": "thrift framework on swoole server",
+  "keywords": [
+    "swoole",
+    "thrift",
+    "rpc"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "xialeistudio",
+      "email": "xialeistudio@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "apache/thrift": "^0.12.0",
+    "ext-swoole": "^4.0.0"
+  },
+  "require-dev": {
+    "eaglewu/swoole-ide-helper": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "swoole\\foundation\\thrift\\": "src/",
+      "tests\\": "tests/"
+    }
+  }
+}
